@@ -1,0 +1,14 @@
+{
+           "type":"record",
+           "namespace":"com.genericAvro",
+           "name":"OfferLookupData",
+           "doc":"This is Offer Informations",
+           "fields":[
+                    { "name":"offerId","type":"long"},
+                    { "name":"offerType","type":"string"},
+                    { "name":"storeId","type":"string"},
+                    { "name":"terminal","type":"string"},
+                    { "name":"id","type":"string"},
+                    { "name":"preCondition","type":"string"}
+                    ]
+           }
